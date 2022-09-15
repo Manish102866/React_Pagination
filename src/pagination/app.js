@@ -17,6 +17,7 @@ export default function App() {
   return (
     <>
     <div className='container'>
+    <header>React Pagination Demo</header>
         {currentMediaData.map(item => {
             return (
                 <ul>
@@ -35,6 +36,7 @@ export default function App() {
         pageSize={PageSize}
         onPageChange={page => setCurrentPage(page)}
       />
+      <footer>Design & Developed By Manish Joshi</footer>
     </>
   );
 }
