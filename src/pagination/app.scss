@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+.container {
+    display: inline;
+
+    ul{
+        list-style-type: none;
+        display: inline-block;
+    }
+    ul > li{
+        width: 300px;
+        font-family: 'Tangerine', serif ;
+        font-size: 1.8em;
+    }
+    ul > li > img{
+        width: 300px;
+        height: 250px;
+    }
+
+    ul > li > span{
+        color: red;
+    }
+
+    ul > li > label.des{
+        word-wrap: break-word;
+        text-align: justify;
+        font-family: 'Tangerine', serif ;
+        font-size: 1em;
+    }
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Tangerine', serif ;
+  font-size: 2em;
+}
